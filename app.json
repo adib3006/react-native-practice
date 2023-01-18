@@ -1,6 +1,7 @@
 {
   "expo": {
     "name": "practice",
+    "description": "To do list app",
     "slug": "practice",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -22,6 +23,7 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "com.mirza.adnan",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
@@ -29,6 +31,11 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "38a971bc-5e6a-47d3-8817-db7f68d64534"
+      }
     }
   }
 }
